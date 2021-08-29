@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include workout_club_management *.css
+recursive-include workout_club_management *.csv
+recursive-include workout_club_management *.html
+recursive-include workout_club_management *.ico
+recursive-include workout_club_management *.js
+recursive-include workout_club_management *.json
+recursive-include workout_club_management *.md
+recursive-include workout_club_management *.png
+recursive-include workout_club_management *.py
+recursive-include workout_club_management *.svg
+recursive-include workout_club_management *.txt
+recursive-exclude workout_club_management *.pyc
